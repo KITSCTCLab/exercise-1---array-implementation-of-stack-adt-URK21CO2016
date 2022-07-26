@@ -1,4 +1,4 @@
-def __init__(self, size):
+ def __init__(self, size):
        self.size = size
        self.lst = [None]*size
        self.top = -1 
@@ -46,3 +46,4 @@ for line in range(queries):
     elif values[0] == 2:
         stack.pop()
 stack.status()
+
