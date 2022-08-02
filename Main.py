@@ -1,6 +1,6 @@
 import os
 class Stack:
-    def _init_(self, size):
+    def __init__(self, size):
         self.size = size
         self.items = [None]*size
         
